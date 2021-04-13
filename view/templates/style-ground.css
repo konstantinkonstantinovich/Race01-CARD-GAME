@@ -1,0 +1,210 @@
+
+  .battleground {
+    position	: relative;
+    width: 100%;
+
+}
+
+  .button-menu {
+      float:right;
+      width: 100px;
+      height: 1000px;
+      background-color: burlywood;
+  }
+  
+  .oponnent-mana {
+      background-color: rgb(190, 159, 117);
+      margin: 25px;
+      padding: 10px;
+      text-align: center;
+      border-radius: 10px;
+
+  }
+
+  .your-mana {
+    background-color: rgb(190, 159, 117);
+    margin: 25px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  li {
+
+    list-style-type: none;
+    padding: 10px;
+  }
+
+  .end-turn {
+    position: relative;
+    margin: 10px;
+  }
+  @import url(https://fonts.googleapis.com/css?family=Roboto);
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 100%; 
+    height: 100%;
+    zoom: 1;
+    background: url(assets/images/brown-wooden-background-wooden-texture-horizontal-wood-boards_99074-69.jpg);
+  }
+  
+  .card {
+    position: relative;
+      cursor: move;
+      display: inline-block;
+      background-color: rgb(255, 249, 240);
+      border-radius: 10px;
+      width: 8%;
+      height: 18%;
+      margin: 20px;
+      text-align: center;
+      border: 1px solid black;
+      box-shadow: 1px 2px 6px 2px silver;
+  }
+
+
+  .card:hover {
+    filter: saturate(.5);
+  }
+  img {
+      width: 100%;
+      height: 100%;
+  }
+  label {
+    font-style: bold;
+    font-family: Courier New;
+    margin: 5px;
+  }
+  .card-info {
+      
+      background-color: rgb(207, 140, 140);
+      border-radius: 0px 0px 10px 10px;
+      padding: 10px;
+      text-align: center;
+  }
+
+  #deck {
+    display: flex;
+
+  }
+  .cost {
+    position:relative;
+    width: 40px;
+    height: 40px;
+    left: -16px;
+    top: -16px;
+    background-color: rgb(104, 104, 209);
+    clip-path: polygon(50% 0%, 77% 33%, 86% 55%, 82% 79%, 64% 94%, 35% 93%, 18% 77%, 15% 54%, 25% 30%);
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .cost-y {
+    position:relative;
+    width: 40px;
+    height: 40px;
+    left: -16px;
+    top: -16px;
+    background-color: rgb(209, 104, 104);
+    clip-path: polygon(50% 0%, 77% 33%, 86% 55%, 82% 79%, 64% 94%, 35% 93%, 18% 77%, 15% 54%, 25% 30%);
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  button {
+      width: 100%;
+      height: 60px;
+      border: none;
+      background: url(assets/images/SRA0QLMB3FCR1454298094987.png) no-repeat center;
+
+      
+      font-size: 17px;
+      outline: none;
+      background-size: cover;
+      
+  }
+  button:hover {
+    background-color: rgb(240, 185, 113);
+  }
+
+
+
+.battleground {
+  width: 100%;
+  height: 100%;
+}
+
+.opponent-area {
+  border-image-source: url(assets/images/rope_PNG18093.png) 23 round;
+  width: 100%;
+  height: 500px;
+}
+
+.your-area {
+  background-color: rgba(202, 126, 98, 0);
+  width: 100%;
+  height: 500px;
+}
+
+
+.card-info-y {
+  background-color: rgb(140, 167, 207);
+  border-radius: 0px 0px 10px 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+#between {
+  width: 94.3%;
+  height: 60px;
+}
+.between img {
+  width: 100%;
+  height: 10px;
+}
+
+.avatar {
+  background: url(assets/images/avatar.png);
+  width: 230px;
+  height: 169px;
+}
+
+.avatar-y {
+  background: url(assets/images/avatar.png);
+  width: 230px;
+  height: 169px;
+  float: right;
+}
+
+.hp {
+  position:relative;
+  clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+  display: table-cell;
+  width: 40px;
+  height: 40px;
+  right: -200px;
+  top: -18px;
+  vertical-align: middle;
+  text-align: center;
+  background-color: rgb(238, 72, 50);
+}
+.hp1 {
+  position:relative;
+  clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+  display: table-cell;
+  width: 40px;
+  height: 40px;
+  right: 10px;
+  top: -18px;
+  vertical-align: middle;
+  text-align: center;
+  background-color: rgb(238, 72, 50);
+}

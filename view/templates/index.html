@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Battleground</title>
+    <link rel="stylesheet" href="style-ground.css">
+</head>
+
+<body>
+    
+    <h2 style="font-family: Garamond; color: white;">Battleground</h2>
+    <div class="battleground">
+        <div class="button-menu">
+            <div class="oponnent-mana">
+                    <li>✹</li>
+                    <li>✹</li>
+                    <li>✹</li>
+                    <li>✹</li>
+                    <li>✹</li>
+                    <li>✹</li>
+                    <li>✹</li>
+                    <li>✹</li>
+                    <li>✹</li>
+                    <li>✹</li>
+            </div>
+            <div>
+                <button type="submit">End Turn</button>
+            </div> 
+            <div class="your-mana">
+                <li>✹</li>
+                <li>✹</li>
+                <li>✹</li>
+                <li>✹</li>
+                <li>✹</li>
+                <li>✹</li>
+                <li>✹</li>
+                <li>✹</li>
+                <li>✹</li>
+                <li>✹</li>
+            </div>
+        </div>
+        <div class="areas">
+            <div class="opponent-area">
+                <div class="avatar"><span class="hp">30</span></div>
+                <div id="deck">
+                    <div class="card" value="on">
+                        <div class="cost">10</div>
+                        <div class="face front">
+                            <label>Superman</label>
+                            <img src="assets/images/superman_PNG25.png">
+                            <div class="card-info">
+                                <span>Attack:10</span>
+                                <span>Def:10</span>
+                            </div>
+                        </div>
+                        <div class="face back"></div>
+                    </div>
+                    <div class="card" value="on">
+                        <div class="cost">9</div>
+                        <div class="face front">
+                            <label>Iron Man</label>
+                            <img src="assets/images/ironman_PNG44.png">
+                            <div class="card-info">
+                                <span>Attack:9</span>
+                                <span>Def:8</span>
+                            </div>
+                        </div>
+                        <div class="face back"></div>
+                    </div>
+                </div>  
+            </div>
+            <div id="between">
+                <img src="assets/images/rope_PNG18093.png">
+            </div>
+            <div class="your-area">
+                <div id="deck">
+                    <div class="card" value="on">
+                        <div class="cost-y">8</div>
+                        <div class="face front">
+                            <label>Hulk</label>
+                            <img src="assets/images/hulk_PNG2.png">
+                            <div class="card-info-y">
+                                <span>Attack:9</span>
+                                <span>Def:9</span>
+                            </div>
+                        </div>
+                        <div class="face back"></div>
+                    </div>
+                    <div class="card" value="on">
+                        <div class="cost-y">9</div>
+                        <div class="face front">
+                            <label>Iron Man</label>
+                            <img src="assets/images/Залізна_людина_КВМ.png">
+                            <div class="card-info-y">
+                                <span>Attack:9</span>
+                                <span>Def:8</span>
+                            </div>
+                        </div>
+                        <div class="face back"></div>
+                    </div>
+                </div> 
+                <div class="avatar-y"><span class="hp1">30</span></div> 
+            </div>            
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

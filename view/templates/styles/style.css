@@ -1,0 +1,73 @@
+body {
+    background-image: url('https://badasshelmetstore.com/wp-content/uploads/2016/10/avengers-helmets.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+span {
+    font-size: 4em;
+
+
+    color: rgb(24, 63, 108);
+    display: inline-block;
+    text-shadow: -3px 3px 0 rgb(250, 246, 213),
+                3px 3px 0 rgb(250, 246, 213),
+                3px -3px 0 rgb(250, 246, 213),
+                -3px -3px 0 rgb(250, 246, 213);
+}
+
+h1 {
+    font-family: Impact;
+    text-align: center;
+    color: rgb(24, 63, 108);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container2 {
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255, 0.6);
+    
+    text-align:center;
+    position: relative;
+    margin: auto;
+    margin-top: 60px;
+    
+    width: 400px;
+    height: 600px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: rgb(24, 63, 108);
+    text-align: center;
+}
+
+input[type = "text"], input[type = "password"] {
+    margin-bottom: 10px;
+    width: 250px;
+    height: 35px;
+    border: none;
+    border-bottom: 2px rgb(24, 63, 108) solid;
+    background-color: transparent;
+}
+
+input[type = "submit"] {
+    border-radius: 15px;
+    background-color: rgb(24, 63, 108);
+    color: white;
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: large;
+}
